@@ -10,6 +10,14 @@ django-braces = "*"
 django-embed-video = "*"
 django-pymemcache = "*"
 django-memcache-status = "*"
+djangorestframework = "*"
+requests = "*"
+channels = "*"
+channels-redis = "*"
+redis = "*"
+django-debug-toolbar = "*"
+django-redisboard = "*"
+pipfile = "*"
 
 [dev-packages]
 
