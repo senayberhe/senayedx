@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+django-braces = "*"
+django-embed-video = "*"
+pymemcache = "*"
+django-debug-toolbar = "*"
+redis = "*"
+django-redisboard = "*"
+attrs = "*"
+djangorestframework = "*"
+requests = "*"
+daphne = "*"
+selenium = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
