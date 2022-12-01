@@ -1,5 +1,5 @@
 api/enroll_all.py
 media
-senayedx/settings.py
 
 db.sqlite3
+senayedx/settings/base.py
