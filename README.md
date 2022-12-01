@@ -44,7 +44,9 @@ There is a seperate contact page from where you can contact to the company. You 
 
 You need an account to view the details page and make order. For that you just need to go to Signup page and create an account.
 
-![Senay Educa -Signup](img4.png)
+
+![My Image](img.png))
+![Senay Educa -Signup](img.png)
 
 ![Real-Estate-Login](https://user-images.githubusercontent.com/71542496/126949599-60a26190-55d2-4110-aeb2-15ca19b34f07.png)
 
