@@ -38,7 +38,7 @@ In about page, you can see about the company, top sellers and listed sellers.
 
 There is a seperate contact page from where you can contact to the company. You will also get response email after sending messages.
 
-![Senay Educa-Contact](img.png)
+![Senay Educa-Contact]('img.png')
 
 ### 5. Login and Signup Page
 
