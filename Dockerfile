@@ -1,6 +1,8 @@
 # Pull official base Python Docker image
 FROM python:3.10.6
 
+
+
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
@@ -9,9 +11,8 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 
 # Install dependencies
-RUN pip install --upgrade pip
-COPY requirements.txt /code/
-RUN pip install -r requirements.txt
+COPY Pipfile Pipfile.lock /code/
+RUN pip install pipenv && pipenv install --system
 
-# Copy the Django project
+# Copy project
 COPY . /code/

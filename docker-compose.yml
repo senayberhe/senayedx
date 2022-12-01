@@ -1,3 +1,5 @@
+version: '3.10'
+
 services:
 
   cache:
@@ -15,6 +17,13 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+      - DJANGO_DEBUG=True
+      - DJANGO_SECURE_SSL_REDIRECT=False
+      - DJANGO_SECURE_HSTS_SECONDS=0
+      - DJANGO_SECURE_HSTS_INCLUDE_SUBDOMAINS=False
+      - DJANGO_SECURE_HSTS_PRELOAD=False
+      - DJANGO_SESSION_COOKIE_SECURE=False
+      - DJANGO_CSRF_COOKIE_SECURE=False
 
   web:
     build: .
@@ -28,6 +37,7 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
     depends_on:
       - db
       - cache
