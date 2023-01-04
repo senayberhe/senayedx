@@ -4,11 +4,11 @@
 
 Pull the repository into your device and run it as you used to run Django Application.
 
--   (You need to install 'requirements.txt' if you don't have these already)
-
--   (You also need to build React Application as it has been ignored in git and also need node_modules.)
-
--   Note: You need to provide your Google Account Details in Settings File.
+-     Create a content management system that manages users, groups, and permissions.
+-    Use model inheritance to manage polymorphic content.
+-    Build a REST API using Django REST Framework.
+-   Develop a real-time chat using WebSockets and Django Channels.
+-    Build custom middleware and implement custom Django management commands.
 
 OR You can simply go through the below link.
 
