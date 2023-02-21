@@ -1,5 +1,61 @@
 # Senay Education App
 
+
+
+Education App
+
+This is a web application built with Django that provides educational resources to users. The app uses Docker to manage its environment, Nginx as a reverse proxy server, and Django Channels for real-time communication.
+Features
+
+    User authentication and authorization
+    Resource creation, modification, and deletion
+    Real-time notifications and messaging using WebSockets
+
+Prerequisites
+
+    Docker and Docker Compose installed on your machine
+    A modern web browser that supports WebSockets
+
+Getting Started
+
+    Clone the repository:
+
+sh
+
+git clone https://github.com/your-username/education-app.git
+cd education-app
+
+    Create a .env file and set the necessary environment variables:
+
+sh
+
+cp example.env .env
+
+    Build the Docker images and start the containers:
+
+sh
+
+docker-compose build
+docker-compose up
+
+    Access the app in your web browser at http://localhost:8000
+
+Contributing
+
+If you'd like to contribute to the project, please follow these steps:
+
+    Fork the repository
+    Create a new branch for your feature: git checkout -b my-feature-branch
+    Make your changes and commit them: git commit -m "Add my feature"
+    Push your changes to your fork: git push origin my-feature-branch
+    Open a pull request on the original repository
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
 ## Steps to Run the Application
 
 Pull the repository into your device and run it as you used to run Django Application.
