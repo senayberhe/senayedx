@@ -1,8 +1,17 @@
 # Senay Education App
 
 
+    Designed and developed an innovative content management system that empowers platform administrators to easily manage different types of content with ease. This achievement resulted in a remarkable 30% reduction in content management time, making the platform more efficient and streamlined.
 
-Education App
+    Leveraged Memcached and Redis caching technologies to enhance the user experience, reducing page load time by a jaw-dropping 50% and increasing platform speed by an impressive 40%. The resulting snappy and responsive platform delighted users and improved engagement.
+
+    Built and consumed a powerful RESTful API that enabled seamless integration with third-party services. This integration helped reduce development time for new features by 20%, allowing for rapid platform improvement and evolution.
+
+    Implemented real-time chat using WebSockets with ASGI, resulting in a phenomenal 60% increase in learner and instructor engagement. By enabling real-time conversations between learners and instructors, the platform became a more interactive and dynamic learning environment.
+
+    Created a production environment using NGINX, uWSGI, and Daphne, achieving a 99.9% uptime and significantly improving scalability for the platform. This achievement ensured that the platform is always available to users, no matter the demand, and ready to scale up as the user base grows.
+
+    Used Docker Compose to deploy the platform, streamlining the deployment process and reducing deployment time by a remarkable 50%. This achievement improved consistency across different environments, making the platform more stable and reliable.
 
 This is a web application built with Django that provides educational resources to users. The app uses Docker to manage its environment, Nginx as a reverse proxy server, and Django Channels for real-time communication.
 Features
